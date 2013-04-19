@@ -1,0 +1,24 @@
+#!/bin/bash
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+tmp_dir="$script_dir/tmp"
+tmp_avdb="$tmp_dir/tmp_avdb"
+#---------- input --------------
+vcf_file=$1
+chr=$2
+raw_region=$3
+out=$4
+
+#---------- get region of interest --------------
+start_pos="$( sed -n 1p $raw_region | awk -F'\t' '{printf "%s", $3}' )"
+end_pos="$( sed -n 2p $raw_region | awk -F'\t' '{printf "%s", $4}' )"
+
+#---------- parse the region of interest and convert it into avdb format --------------
+tabix $vcf_file $chr:$start_pos-$end_pos | grep "1/1" | awk '{printf "%s\t%s\t%s\t%s\t%s\tHom\n", $1, $2, $2, $4, $5}' > $tmp_avdb
+tabix $vcf_file $chr:$start_pos-$end_pos | grep "0/1" | awk '{printf "%s\t%s\t%s\t%s\t%s\tHet\n", $1, $2, $2, $4, $5}' >> $tmp_avdb
+sort -k1,2 $tmp_avdb > $out
+
+
+
+
