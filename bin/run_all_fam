@@ -1,0 +1,16 @@
+#!/bin/bash
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+#---------- script location --------------
+run_fam_script=$script_dir/090_run_fam
+
+#---------- run --------------
+$run_fam_script 6 rs1001015 rs3734693 110 fam110-1526-02D fam110-Co1301
+$run_fam_script 6 rs1001015 rs3734693 301 fam301-Co837 fam301-Co840
+
+$run_fam_script 18 rs1013785 rs1010800 008 fam008-Co35 fam008-Co37
+$run_fam_script 18 rs1013785 rs1010800 918 fam918-134-06 fam918-354-06
+
+
+
