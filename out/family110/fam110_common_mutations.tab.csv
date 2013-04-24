@@ -1,4 +1,4 @@
-Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	fam110-1526-02D	fam110-Co1301
+Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	1526-02D	Co1301
 exonic	CUL9	synonymous SNV	CUL9:NM_015089:exon4:c.C1149G:p.L383L	428;Name=lod=73		0.999385	1.00	rs941849													6	43154091	43154091	C	G	Hom	Hom
 exonic	TBCC	nonsynonymous SNV	TBCC:NM_003192:exon1:c.T194C:p.V65A	631;Name=lod=488		0.990389	0.99	rs2234026	1	0.990362	C	0.23	T	0.131026	NA	0.997675	N	3.0E-6	N	3.74	6	42713618	42713618	A	G	Hom	Hom
 exonic	SLC22A7	synonymous SNV	SLC22A7:NM_006672:exon7:c.T1215C:p.A405A,SLC22A7:NM_153320:exon7:c.T1221C:p.A407A			0.978010	0.98	rs2651184													6	43270097	43270097	T	C	Hom	Hom

@@ -18,8 +18,9 @@ member_code[2]=$6
 get_region_script=$script_dir/010_get_region
 vcf2avdb_script=$script_dir/020_vcf2avdb
 summarize_script=$script_dir/030_summarize
-csv2tab_script=$script_dir/040_csv2tab
+comma2tab_script=$script_dir/040_comma2tab
 find_common_mutations_script=$script_dir/050_find_common_mutations
+csvs2xls=$script_dir/060_csvs2xls
 
 #---------- tmp data location --------------
 tmp_dir="$script_dir/tmp"
@@ -37,6 +38,7 @@ fi
 member1_out="$family_dir/${member_code[1]}.tab.csv"
 member2_out="$family_dir/${member_code[2]}.tab.csv"
 common_mutations_out="$family_dir/fam$family_code"_"common_mutations.tab.csv"
+xls_out="$family_dir/fam$family_code".xls
 
 #---------- analyze --------------
 
@@ -45,7 +47,7 @@ $get_region_script $chr $beginning $ending $region_out
 
 for var in 1 2
 do
-    vcf_file="$vcf_dir/${member_code[$var]}.vcf.gz"
+    vcf_file="$vcf_dir/fam$family_code"-"${member_code[$var]}.vcf.gz"
     avdb_tmp_file="$tmp_dir/${member_code[$var]}.avdb"
     summarize_out="$tmp_dir/${member_code[$var]}.summarize"
     csv_file=$summarize_out".exome_summary.csv"
@@ -53,7 +55,7 @@ do
 
     $vcf2avdb_script $vcf_file $chr $region_out $avdb_tmp_file
     $summarize_script $avdb_tmp_file $summarize_out
-    $csv2tab_script $csv_file $tmp_tab
+    $comma2tab_script $csv_file $tmp_tab
 done
 
 csv1="$tmp_dir/${member_code[1]}.summarize.exome_summary.csv.tab.csv"
@@ -63,4 +65,5 @@ $find_common_mutations_script $csv1 ${member_code[1]} $csv2 ${member_code[2]} $c
 cp $csv1 $member1_out
 cp $csv2 $member2_out
 
+python $csvs2xls $csv1 ${member_code[1]} $csv2 ${member_code[2]} $common_mutations_out $xls_out
 

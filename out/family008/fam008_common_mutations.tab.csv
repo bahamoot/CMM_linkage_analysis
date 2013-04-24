@@ -1,4 +1,4 @@
-Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	fam008-Co35	fam008-Co37
+Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	Co35	Co37
 exonic	GREB1L	synonymous SNV	GREB1L:NM_001142966:exon22:c.A3555G:p.E1185E	498;Name=lod=141		0.987735	0.99	rs4800747													18	19079853	19079853	A	G	Hom	Hom
 exonic	ANKRD30B	nonsynonymous SNV	ANKRD30B:NM_001145029:exon36:c.C4035A:p.N1345K		0.98		0.97	rs12386087													18	14852335	14852335	C	A	Hom	Hom
 exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon16:c.C2305T:p.L769L			0.836766	0.88	rs6505592													18	10787047	10787047	G	A	Hom	Hom

@@ -6,10 +6,6 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 run_fam_script=$script_dir/090_run_fam
 
 #---------- run --------------
-$run_fam_script 6 rs1001015 rs3734693 110 1526-02D Co1301
-$run_fam_script 6 rs1001015 rs3734693 301 Co837 Co840
-
-$run_fam_script 18 rs1013785 rs1010800 008 Co35 Co37
 $run_fam_script 18 rs1013785 rs1010800 918 134-06 354-06
 
 
