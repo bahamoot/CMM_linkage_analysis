@@ -20,7 +20,7 @@ vcf2avdb_script=$script_dir/020_vcf2avdb
 summarize_script=$script_dir/030_summarize
 comma2tab_script=$script_dir/040_comma2tab
 find_common_mutations_script=$script_dir/050_find_common_mutations
-csvs2xls=$script_dir/060_csvs2xls
+csvs2xls=$script_dir/060_csvs2xls.py
 
 #---------- tmp data location --------------
 tmp_dir="$script_dir/tmp"
