@@ -4,10 +4,20 @@ import xlwt
 
 member1_csv  = sys.argv[1]
 member1_code = sys.argv[2]
-member2_csv  = sys.argv[3]
-member2_code = sys.argv[4]
-incommon_csv = sys.argv[5]
-output_file  = sys.argv[6]
+
+if len(sys.argv) == 4:
+    output_file  = sys.argv[3]
+else:
+    member2_csv  = sys.argv[3]
+    member2_code = sys.argv[4]
+    if len(sys.argv) == 7:
+        incommon_csv = sys.argv[5]
+        output_file  = sys.argv[6]
+    else:
+        member3_csv  = sys.argv[5]
+        member3_code = sys.argv[6]
+        incommon_csv = sys.argv[7]
+        output_file  = sys.argv[8]
 
 def isFloat(string):
     try:
@@ -58,13 +68,17 @@ def add_csv_sheet(wb, sheet_name, csv_file, st):
                     ws.write(row, col, csv_record[col])
     ws.set_panes_frozen(True)
     ws.set_horz_split_pos(1)
+    ws.set_remove_splits(True)
 
 wb = xlwt.Workbook()
 yellow_st = xlwt.easyxf('pattern: pattern solid, fore_colour yellow;')
 
 add_csv_sheet(wb, member1_code, member1_csv, yellow_st)
-add_csv_sheet(wb, member2_code, member2_csv, yellow_st)
-add_csv_sheet(wb, "In common", incommon_csv, yellow_st)
+if len(sys.argv) > 4:
+    add_csv_sheet(wb, member2_code, member2_csv, yellow_st)
+    if len(sys.argv) == 9:
+        add_csv_sheet(wb, member3_code, member3_csv, yellow_st)
+    add_csv_sheet(wb, "In common", incommon_csv, yellow_st)
 
 wb.save(output_file)
 

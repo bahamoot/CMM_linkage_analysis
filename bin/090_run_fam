@@ -2,20 +2,27 @@
 
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-vcf_dir="/home/jessada/development/CMM/master_data/CRC_screen4"
-
-#---------- input --------------
-chr=$1
-beginning=$2
-ending=$3
+vcf_dir="/home/jessada/development/CMM/master_data/CRC_screen4/idx"
 
 #---------- code of the members to analyze --------------
-family_code=$4
-member_code[1]=$5
-member_code[2]=$6
+chr=$1
+region_out=$2
+family_code=$3
+member_code[1]=$4
+if [ $# -eq 4 ]; then
+    member_code[2]=dummy2
+    member_code[3]=dummy3
+else
+    if [ $# -eq 5 ]; then
+        member_code[2]=$5
+        member_code[3]=dummy3
+    else
+        member_code[2]=$5
+        member_code[3]=$6
+    fi
+fi
 
 #---------- script location --------------
-get_region_script=$script_dir/010_get_region
 vcf2avdb_script=$script_dir/020_vcf2avdb
 summarize_script=$script_dir/030_summarize
 comma2tab_script=$script_dir/040_comma2tab
@@ -24,32 +31,31 @@ csvs2xls=$script_dir/060_csvs2xls.py
 
 #---------- tmp data location --------------
 tmp_dir="$script_dir/tmp"
-tmp_prefix="$tmp_dir/chr$chr"
-region_out=$tmp_prefix"_region"
+#tmp_prefix="$tmp_dir/chr$chr"
 
 #---------- output location --------------
 out_dir="$script_dir/../out"
-family_dir="$out_dir/family$family_code"
+family_dir="$out_dir/family$family_code"_"chr$chr"
 
 if [ ! -d "$family_dir" ]; then
-    mkdir $family_dir
+    mkdir "$family_dir"
 fi
 
 member1_out="$family_dir/${member_code[1]}.tab.csv"
 member2_out="$family_dir/${member_code[2]}.tab.csv"
+member3_out="$family_dir/${member_code[3]}.tab.csv"
 common_mutations_out="$family_dir/fam$family_code"_"common_mutations.tab.csv"
-xls_out="$family_dir/fam$family_code".xls
+xls_out="$family_dir/fam$family_code"_chr"$chr".xls
 
 #---------- analyze --------------
 
 rm $tmp_dir/*
-$get_region_script $chr $beginning $ending $region_out
 
-for var in 1 2
+for (( i=1; i<=$(($#-3)); i++ ))
 do
-    vcf_file="$vcf_dir/fam$family_code"-"${member_code[$var]}.vcf.gz"
-    avdb_tmp_file="$tmp_dir/${member_code[$var]}.avdb"
-    summarize_out="$tmp_dir/${member_code[$var]}.summarize"
+    vcf_file="$vcf_dir/fam$family_code"-"${member_code[$i]}.vcf.gz"
+    avdb_tmp_file="$tmp_dir/${member_code[$i]}.avdb"
+    summarize_out="$tmp_dir/${member_code[$i]}.summarize"
     csv_file=$summarize_out".exome_summary.csv"
     tmp_tab=$summarize_out".exome_summary.csv.tab.csv"
 
@@ -60,10 +66,27 @@ done
 
 csv1="$tmp_dir/${member_code[1]}.summarize.exome_summary.csv.tab.csv"
 csv2="$tmp_dir/${member_code[2]}.summarize.exome_summary.csv.tab.csv"
+csv3="$tmp_dir/${member_code[3]}.summarize.exome_summary.csv.tab.csv"
 
-$find_common_mutations_script $csv1 ${member_code[1]} $csv2 ${member_code[2]} $common_mutations_out
 cp $csv1 $member1_out
-cp $csv2 $member2_out
 
-python $csvs2xls $csv1 ${member_code[1]} $csv2 ${member_code[2]} $common_mutations_out $xls_out
+if [ $# -eq 4 ]; then
+    python $csvs2xls $csv1 ${member_code[1]} $xls_out
+else
+    cp $csv2 $member2_out
+
+    if [ $# -eq 5 ]; then
+        $find_common_mutations_script $csv1 ${member_code[1]} $csv2 ${member_code[2]} $common_mutations_out
+
+        python $csvs2xls $csv1 ${member_code[1]} $csv2 ${member_code[2]} $common_mutations_out $xls_out
+    else
+        if [ $# -eq 6 ]; then
+            $find_common_mutations_script $csv1 ${member_code[1]} $csv2 ${member_code[2]} $csv3 ${member_code[3]} $common_mutations_out
+
+            cp $csv3 $member3_out
+
+            python $csvs2xls $csv1 ${member_code[1]} $csv2 ${member_code[2]} $csv3 ${member_code[3]} $common_mutations_out $xls_out
+        fi
+    fi
+fi
 

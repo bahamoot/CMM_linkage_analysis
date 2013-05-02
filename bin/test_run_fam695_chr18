@@ -1,0 +1,23 @@
+#!/bin/bash
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+#---------- input --------------
+chr=18
+beginning=rs1013785
+ending=rs1010800
+
+#---------- tmp data location --------------
+region_dir="$script_dir/../region"
+region_out="$region_dir/chr$chr"_region
+
+#---------- script location --------------
+get_region_script=$script_dir/010_get_region
+run_fam_script=$script_dir/090_run_fam
+
+#---------- run --------------
+$get_region_script $chr $beginning $ending $region_out
+$run_fam_script $chr $region_out 0695 Co1354 Co1359 Co1368
+
+
+
