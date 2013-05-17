@@ -51,13 +51,31 @@ def explain_annotation(csv_record):
         csv_record[col_ljb_mutationtaster_pred] = mutationtaster_explanation[csv_record[col_ljb_mutationtaster_pred]]
     return csv_record
 
+def split_last_extra_info(csv_record, sheet_name):
+#    tmp_len   = len(csv_record)
+#    if sheet_name != "In common":
+#        if csv_record[tmp_len-1] == 'Otherinfo':
+#            csv_record.append('QUAL')
+#            csv_record.append('FILTER')
+#        else:
+#            tmp_split = csv_record[tmp_len-1].split('|')
+#            csv_record[tmp_len-1] = tmp_split[0]
+#            csv_record.append(tmp_split[1])
+#            csv_record.append(tmp_split[2])
+#    else:
+#        csv_record[tmp_len-3] = csv_record[tmp_len-3].split('|')[0]
+#        csv_record[tmp_len-2] = csv_record[tmp_len-2].split('|')[0]
+#        csv_record[tmp_len-1] = csv_record[tmp_len-1].split('|')[0]
+    return csv_record
+
+
 def add_csv_sheet(wb, sheet_name, csv_file, st):
     ws = wb.add_sheet(sheet_name)
     with open(csv_file, 'rb') as csvfile:
         csv_records = list(csv.reader(csvfile, delimiter='\t'))
         for row in xrange(len(csv_records)):
             csv_record = csv_records[row]
-            csv_record = explain_annotation(csv_record)
+            csv_record = split_last_extra_info(explain_annotation(csv_record), sheet_name)
             for col in xrange(len(csv_record)):
                 if (isFloat(csv_record[7]) and (float(csv_record[7])<=0.1)) or (csv_record[7]=='') :
                     if (csv_record[2] != 'synonymous SNV'):

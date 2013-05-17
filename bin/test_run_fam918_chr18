@@ -3,6 +3,8 @@
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 #---------- input --------------
+header_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK_header.vcf"
+tabix_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK.vcf.gz"
 chr=18
 beginning=rs1013785
 ending=rs1010800
@@ -17,7 +19,7 @@ run_fam_script=$script_dir/090_run_fam
 
 #---------- run --------------
 $get_region_script $chr $beginning $ending $region_out
-$run_fam_script $chr $region_out 0918 134-06 354-06
+$run_fam_script $header_file $tabix_file $chr $region_out 0918 134-06 354-06
 
 
 
