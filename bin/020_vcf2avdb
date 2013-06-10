@@ -36,7 +36,10 @@ END{}
     }
 }'`
 
-tabix $tabix_file $chr:$start_pos-$end_pos | cut -f1-9,$col | grep -v "\./\." > $tmp_prefix"$patient_code"_avdb
+echo
+echo $col
+
+tabix $tabix_file $chr:$start_pos-$end_pos | cut -f1-9,$col | grep -v "\./\." | grep -v "0/0" > $tmp_prefix"$patient_code"_avdb
 $convert2annovar_script -format vcf4 $tmp_prefix"$patient_code"_avdb > $out
 #grep "1/1" $tmp_avdb1 | awk '{printf "%s\t%s\t%s\t%s\t%s\tHom|%s|%s\n", $1, $2, $2, $3, $4, $5, $6}' > $tmp_avdb2
 #grep -v "1/1" $tmp_avdb1 | awk '{printf "%s\t%s\t%s\t%s\t%s\tHet|%s|%s\n", $1, $2, $2, $3, $4, $5, $6}' >> $tmp_avdb2
