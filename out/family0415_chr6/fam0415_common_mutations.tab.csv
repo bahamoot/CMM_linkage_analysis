@@ -1,12 +1,9 @@
 Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	Co1031	Co1037
 exonic	CUL9	synonymous SNV	CUL9:NM_015089:exon4:c.C1149G:p.L383L	428;Name=lod=73		0.999385	1.00	rs941849													6	43154091	43154091	C	G	hom	hom
-UTR5	C6orf132						1.00	rs6911399													6	42110263	42110263	T	C	hom	hom
 intronic	RPL7L1				0.98	0.996540	1.00	rs2179719													6	42853842	42853842	A	G	hom	hom
 intronic	XPO5						1.00	rs1150800													6	43494319	43494319	A	G	hom	hom
 exonic	TBCC	nonsynonymous SNV	TBCC:NM_003192:exon1:c.T194C:p.V65A	631;Name=lod=488		0.990389	0.99	rs2234026	1	0.990362	C	0.23	T	0.131026	NA	0.997675	N	3.0E-6	N	3.74	6	42713618	42713618	A	G	hom	hom
-intronic	PTK7						0.99	rs144822301													6	43114211	43114211	-	T	hom	hom
 intergenic	CRIP3(dist=19232),ZNF318(dist=8046)						0.98	rs967033													6	43295762	43295762	C	T	hom	hom
-intronic	TAF8						0.98	rs4523084													6	42023099	42023099	G	A	hom	hom
 intronic	SLC22A7						0.98	rs2841646													6	43270326	43270326	A	G	hom	hom
 exonic	SLC22A7	synonymous SNV	SLC22A7:NM_006672:exon7:c.T1215C:p.A405A,SLC22A7:NM_153320:exon7:c.T1221C:p.A407A			0.978010	0.98	rs2651184													6	43270097	43270097	T	C	hom	hom
 exonic	ZNF318	nonsynonymous SNV	ZNF318:NM_014345:exon10:c.T5390C:p.V1797A			0.978010	0.98	rs1459675	0.45	0.019814	N	0.37	T	0.0	B	0.061249	N	2.0E-6	P	-5.44	6	43306346	43306346	A	G	hom	hom
@@ -17,197 +14,69 @@ exonic	PRPH2	nonsynonymous SNV	PRPH2:NM_000322:exon3:c.G929A:p.R310K	557;Name=lo
 intronic	UBR2						0.94	rs2295153													6	42646518	42646518	T	A	hom	hom
 intronic	UBR2					0.913395	0.93	rs7767888													6	42612312	42612312	C	T	hom	hom
 intronic	UBR2						0.93	rs2144083													6	42644062	42644062	A	G	hom	hom
-intronic	GUCA1B						0.89	rs9471799													6	42153609	42153609	C	T	hom	het
-UTR3	MRPS10				0.95		0.89	rs4714580													6	42174558	42174558	A	G	hom	het
-intronic	ABCC10						0.88	rs831312													6	43405525	43405525	C	T	hom	hom
 UTR5	ABCC10					0.882054	0.88	rs700008													6	43399837	43399837	A	G	hom	hom
 intronic	MRPS10						0.88	rs6936290													6	42176451	42176451	G	A	hom	het
-intronic	MRPS10						0.88	rs57369579													6	42176744	42176744	G	-	hom	het
 UTR5	GUCA1B					0.860530	0.88	rs1474867													6	42162575	42162575	A	G	hom	het
-intronic	UBR2						0.84														6	42650766	42650766	-	T	hom	hom
-intronic	GTPBP2						0.82	rs2396050													6	43594459	43594459	A	G	hom	hom
 exonic	CUL7	synonymous SNV	CUL7:NM_001168370:exon11:c.A2691G:p.Q897Q,CUL7:NM_014780:exon11:c.A2439G:p.Q813Q	620;Name=lod=442		0.976857	0.81	rs9394939													6	43014298	43014298	T	C	hom	hom
-UTR5	C6orf132						0.81	rs6932184													6	42110589	42110589	A	G	het	hom
 intronic	MRPS10						0.81	rs1884317													6	42182183	42182183	C	T	hom	het
 exonic	CUL7	nonsynonymous SNV	CUL7:NM_001168370:exon11:c.A2690G:p.Q897R,CUL7:NM_014780:exon11:c.A2438G:p.Q813R	620;Name=lod=442		0.976857	0.78	rs9381231	1	0.812945	N	0.72	T	0.0	B	0.999904	N	3.3E-5	N	1.26	6	43014299	43014299	T	C	hom	hom
 exonic	PRPH2	nonsynonymous SNV	PRPH2:NM_000322:exon3:c.A1013G:p.D338G	243;Name=lod=13		0.776795	0.78	rs434102	0.24	0.959265	C	0.78	T	0.508998	NA	0.995503	N	0.332345	N	4.08	6	42666061	42666061	T	C	hom	het
 UTR3	PRPH2						0.78	rs432753													6	42665490	42665490	C	T	hom	het
 UTR3	PRPH2						0.78	rs405059													6	42664676	42664676	G	A	hom	het
-UTR3	PRPH2						0.78	rs405043													6	42664658	42664658	G	A	hom	het
-exonic	PRPH2	nonsynonymous SNV	PRPH2:NM_000322:exon3:c.C910G:p.Q304E	557;Name=lod=244		0.776795	0.78	rs390659	1	0.975056	C	0.0	T	0.001431	NA	1.0	N	1.0E-6	P	4.89	6	42666164	42666164	G	C	hom	het
 UTR3	PRPH2						0.78	rs1758213													6	42665271	42665271	G	A	hom	het
 UTR3	CCND3						0.77	rs9529													6	41903007	41903007	T	C	het	hom
-UTR3	MED20						0.77	rs4714518													6	41873961	41873961	T	A	het	hom
-intronic	UBR2					0.753614	0.76	rs434505													6	42652667	42652667	G	A	hom	het
 intronic	UBR2						0.74	rs761537													6	42641704	42641704	G	A	hom	hom
-downstream	MRPS10						0.74	rs4714579													6	42174478	42174478	A	G	hom	het
 intronic	TFEB						0.74	rs2073156													6	41657328	41657328	A	G	hom	hom
 exonic	TFEB	synonymous SNV	TFEB:NM_001271943:exon8:c.A909G:p.P303P,TFEB:NM_001167827:exon9:c.A1206G:p.P402P,TFEB:NM_001271944:exon9:c.A1164G:p.P388P,TFEB:NM_001271945:exon9:c.A1164G:p.P388P,TFEB:NM_007162:exon10:c.A1164G:p.P388P			0.756197	0.74	rs1062966													6	41652604	41652604	T	C	hom	hom
-intronic	UBR2						0.72	rs7745976													6	42573285	42573285	A	G	het	het
-exonic	TAF8	synonymous SNV	TAF8:NM_138572:exon8:c.G888A:p.R296R			0.645058	0.70	rs3800286													6	42044945	42044945	G	A	het	hom
 intronic	TFEB			251;Name=lod=14			0.70	rs2073157													6	41655005	41655005	G	A	hom	hom
 UTR5	GUCA1A						0.70	rs1132156	0												6	42123317	42123317	A	C	het	het
 intronic	ABCC10					0.767574	0.69	rs1214747													6	43414234	43414234	G	C	hom	het
-ncRNA_exonic	LOC100132354						0.67	rs9381267													6	43905506	43905506	G	C	het	het
-intronic	ABCC10						0.67	rs2487663													6	43409418	43409418	A	G	hom	hom
 UTR5	VEGFA			468;Name=lod=106			0.66	rs2010963													6	43738350	43738350	C	G	het	het
 intronic	GNMT					0.689605	0.61	rs2296804													6	42931261	42931261	C	G	hom	hom
-UTR3	PEX6			259;Name=lod=15			0.61	rs144286892													6	42931628	42931631	TTTA	-	hom	hom
-UTR3	TRERF1						0.60	rs9394889													6	42194440	42194440	C	A	hom	het
-UTR3	MRPS10				0.96		0.60	rs6929797													6	42175268	42175268	G	A	hom	het
 UTR3	TRERF1						0.60	rs4424082													6	42194235	42194235	T	A	hom	het
 exonic	GUCA1B	synonymous SNV	GUCA1B:NM_002098:exon1:c.T171C:p.Y57Y	562;Name=lod=256		0.513840	0.60	rs3749921													6	42162388	42162388	A	G	hom	het
-intronic	PTK7						0.60	rs3737185													6	43111445	43111445	T	C	het	hom
-intergenic	TRERF1(dist=48115),UBR2(dist=63862)						0.60	rs2941399													6	42467898	42467898	T	C	het	het
-intronic	MRPS10					0.513763	0.60	rs2295278													6	42176120	42176120	G	T	hom	het
 intronic	MRPS10						0.60	rs2295277													6	42178578	42178578	C	G	hom	het
 intronic	MRPS10						0.60	rs2273283													6	42181773	42181773	G	A	hom	het
 ncRNA_exonic	LOC100132354						0.60	rs1886979													6	43904901	43904901	G	A	het	het
 intronic	MRPS10					0.514070	0.60	rs1884318													6	42181960	42181960	A	C	hom	het
-intronic	KLC4						0.60	rs13199873													6	43040368	43040368	A	C	hom	hom
 UTR3	MRPS10				0.96		0.59	rs9381159													6	42174984	42174984	C	T	hom	het
 UTR3	MRPS10				0.96		0.59	rs8850													6	42174611	42174611	G	T	hom	het
-intronic	MRPS10						0.59	rs4714582													6	42179387	42179387	G	C	hom	het
-UTR3	MRPS10				0.96		0.59	rs3199638													6	42175221	42175221	A	G	hom	het
-UTR3	MRPS10				0.96		0.59	rs11618													6	42175927	42175927	G	A	hom	het
 exonic	PRPH2	synonymous SNV	PRPH2:NM_000322:exon1:c.T318C:p.V106V			0.606797	0.58	rs7764439													6	42689755	42689755	A	G	het	het
-intronic	PRPH2						0.58	rs143192355													6	42679303	42679303	-	A	het	het
 exonic	CCND3	nonsynonymous SNV	CCND3:NM_001136125:exon4:c.T559G:p.S187A,CCND3:NM_001136126:exon4:c.T187G:p.S63A,CCND3:NM_001136017:exon5:c.T532G:p.S178A,CCND3:NM_001760:exon5:c.T775G:p.S259A			0.624327	0.58	rs1051130	0.75	0.797712	N	0.5	T	0.0	B	0.915863	N	1.0E-5	P	1.48	6	41903782	41903782	A	C	het	hom
-intronic	PRPH2						0.54	rs6931385													6	42677834	42677834	A	C	het	het
-intronic	PRPH2						0.53	rs2268684													6	42677753	42677753	A	G	het	het
-intronic	PGC						0.53	rs150011417													6	41712716	41712719	TCTG	-	hom	hom
-intronic	PGC						0.51	rs199534592													6	41712724	41712729	TCTGTC	-	hom	hom
 exonic	C6orf132	nonsynonymous SNV	C6orf132:NM_001164446:exon4:c.T1544C:p.L515P				0.50	rs9394866	0.37												6	42074106	42074106	A	G	hom	het
 UTR5	MED20					0.543145	0.49	rs2274578													6	41888827	41888827	C	G	het	hom
 intronic	PEX6					0.604644	0.49	rs2274517													6	42932715	42932715	C	T	hom	het
 intergenic	CNPY3(dist=17481),GNMT(dist=4011)						0.48	rs70990160													6	42924489	42924489	A	-	hom	het
-intergenic	CNPY3(dist=17416),GNMT(dist=4076)			720;Name=lod=1123			0.48	rs4714640													6	42924424	42924424	G	T	hom	het
 intronic	PEX6					0.597801	0.48	rs3818554													6	42934620	42934620	C	T	hom	het
 intronic	PEX6					0.597801	0.48	rs2274514													6	42934500	42934500	C	T	hom	het
-intergenic	CNPY3(dist=17239),GNMT(dist=4253)			720;Name=lod=1123			0.48	rs13216214													6	42924247	42924247	G	A	hom	het
-intergenic	CNPY3(dist=17185),GNMT(dist=4307)			720;Name=lod=1123			0.48	rs13215983													6	42924193	42924193	C	T	hom	het
-intergenic	CNPY3(dist=16894),GNMT(dist=4598)				0.97		0.48	rs12524845													6	42923902	42923902	T	C	hom	het
-exonic	PEX6	synonymous SNV	PEX6:NM_000287:exon17:c.G2814A:p.E938E	389;Name=lod=51		0.597570	0.48	rs1129186													6	42932202	42932202	C	T	hom	het
 intergenic	CNPY3(dist=17033),GNMT(dist=4459)				0.97		0.48	rs112122607													6	42924041	42924041	C	T	hom	het
-intergenic	CNPY3(dist=17614),GNMT(dist=3878)						0.47	rs4714641													6	42924622	42924622	A	G	hom	hom
-exonic	UBR2	synonymous SNV	UBR2:NM_001184801:exon1:c.C45T:p.S15S,UBR2:NM_015255:exon1:c.C45T:p.S15S	594;Name=lod=345		0.443325	0.46	rs3749897													6	42532102	42532102	C	T	het	het
-intronic	USP49						0.46	rs2251274													6	41839438	41839438	T	G	het	hom
-intronic	USP49						0.46	rs2149274													6	41839092	41839092	T	C	het	hom
 exonic	TFEB	synonymous SNV	TFEB:NM_001167827:exon2:c.G105A:p.Q35Q,TFEB:NM_001271943:exon2:c.G63A:p.Q21Q,TFEB:NM_001271944:exon2:c.G63A:p.Q21Q,TFEB:NM_001271945:exon2:c.G63A:p.Q21Q,TFEB:NM_007162:exon3:c.G63A:p.Q21Q	670;Name=lod=703		0.505318	0.46	rs1015149													6	41658889	41658889	C	T	hom	hom
-exonic	UBR2	nonsynonymous SNV	UBR2:NM_015255:exon30:c.G3283A:p.A1095T	455;Name=lod=94		0.422420	0.44	rs6917033	0.24	0.896254	N	0.47	T	0.0020	B	0.997957	N	0.002755	N	2.08	6	42627434	42627434	G	A	het	het
-intronic	UBR2						0.44	rs4460209													6	42638564	42638564	T	C	het	het
 intronic	UBR2					0.423101	0.44	rs2038261													6	42644623	42644623	A	G	het	het
-intronic	TAF8						0.39	rs6917299													6	42025058	42025058	G	A	hom	het
-UTR3	CCND3						0.39														6	41903355	41903355	-	G	het	het
-upstream	GNMT					0.422743	0.38	rs10948059													6	42928461	42928461	C	T	hom	hom
 exonic	CUL9	nonsynonymous SNV	CUL9:NM_015089:exon31:c.A6173C:p.H2058P	304;Name=lod=23		0.362833	0.37	rs2273709	1	0.983633	C	0.95	T	0.0	B	0.999999	N	3.0E-6	P	5.35	6	43184132	43184132	A	C	hom	hom
-intronic	TTBK1						0.35	rs6936397													6	43250387	43250387	G	C	het	hom
-intronic	PRPH2						0.34	rs6928781													6	42689411	42689411	G	A	het	het
 intronic	GNMT					0.434107	0.34	rs4987173													6	42931224	42931224	G	A	hom	het
-downstream	CNPY3						0.34	rs11299851													6	42907098	42907098	A	-	het	het
-exonic	CUL9	synonymous SNV	CUL9:NM_015089:exon2:c.A525G:p.L175L	569;Name=lod=275		0.291295	0.33	rs9472022													6	43152573	43152573	A	G	het	hom
-UTR5	PEX6						0.33	rs9462859													6	42946943	42946943	G	A	hom	het
-exonic	PEX6	synonymous SNV	PEX6:NM_000287:exon1:c.G399T:p.V133V	295;Name=lod=21		0.375411	0.33	rs9462858													6	42946490	42946490	C	A	hom	het
-exonic	PEX6	nonsynonymous SNV	PEX6:NM_000287:exon17:c.C2816A:p.P939Q			0.426880	0.33	rs1129187	0.14	0.193183	N	0.62	T	0.0	B	0.527446	N	0.007258	P	-2.33	6	42932200	42932200	G	T	hom	het
-intronic	DLK2						0.31	rs3734687													6	43423647	43423647	T	C	het	het
-intronic	PEX6			355;Name=lod=37		0.376672	0.30	rs9986447													6	42942779	42942779	A	G	hom	het
-intronic	PRPH2						0.30	rs6915637													6	42677875	42677875	T	G	het	het
-UTR3	PRPH2						0.28	rs835													6	42665888	42665888	C	T	het	het
 intronic	UBR2						0.28	rs67117868													6	42626148	42626151	ACTC	-	het	het
 intronic	UBR2						0.28	rs4521584													6	42608187	42608187	T	C	het	het
-intronic	UBR2						0.28	rs3763234													6	42617961	42617961	T	G	het	hom
-intronic	TFEB						0.27	rs9462736													6	41655340	41655340	C	T	hom	hom
-UTR3	TFEB						0.27	rs14063													6	41652136	41652136	G	A	het	het
-intronic	TFEB						0.27	rs1076727													6	41654110	41654110	G	A	het	het
-intronic	VEGFA					0.228817	0.26	rs3025000													6	43746169	43746169	C	T	het	het
 exonic	DLK2	synonymous SNV	DLK2:NM_023932:exon6:c.C696T:p.H232H,DLK2:NM_206539:exon6:c.C696T:p.H232H	464;Name=lod=103		0.376057	0.26	rs1214749													6	43418733	43418733	G	A	het	het
-exonic	DLK2	synonymous SNV	DLK2:NM_023932:exon6:c.C738T:p.T246T,DLK2:NM_206539:exon6:c.C738T:p.T246T	470;Name=lod=108		0.375442	0.26	rs1214748													6	43418691	43418691	G	A	het	het
-downstream	PTK7						0.25	rs6458327													6	43129480	43129480	C	G	het	het
 intronic	PTK7					0.206213	0.25	rs61021888													6	43128434	43128434	A	G	het	hom
-UTR3	PTK7			336;Name=lod=31			0.25	rs1051709													6	43128852	43128852	T	C	het	hom
-intronic	PTK7					0.206828	0.24	rs6933124	0												6	43110055	43110055	T	G	het	het
-intronic	TAF8						0.23	rs9471746													6	42023521	42023521	A	G	het	het
-intronic	CUL9					0.292109	0.21	rs6918623													6	43189375	43189375	A	G	het	hom
 intronic	CUL9						0.20	rs9462875													6	43168117	43168117	A	G	het	hom
-downstream	CCND3						0.20	rs3218108													6	41902655	41902655	C	T	het	het
 UTR5	TOMM6					0.196014	0.19	rs9471653													6	41755410	41755410	C	G	het	het
-exonic	PRICKLE4	synonymous SNV	PRICKLE4:NM_013397:exon6:c.C388T:p.L130L			0.188528	0.19	rs9394831													6	41753084	41753084	C	T	hom	het
-exonic	PRICKLE4	synonymous SNV	PRICKLE4:NM_013397:exon8:c.C864T:p.L288L				0.19	rs9381093													6	41754576	41754576	C	T	het	het
 exonic	CUL9	synonymous SNV	CUL9:NM_015089:exon34:c.C6633T:p.D2211D	605;Name=lod=383		0.267338	0.19	rs6917902													6	43188940	43188940	C	T	het	hom
 exonic	ABCC10	nonsynonymous SNV	ABCC10:NM_033450:exon12:c.T2759C:p.I920T,ABCC10:NM_001198934:exon14:c.T2843C:p.I948T	428;Name=lod=73		0.276026	0.19	rs2125739	1	0.96917	C	0.0	T	0.0	B	0.994066	N	1.2E-5	P	4.64	6	43412865	43412865	T	C	het	het
-downstream	USP49						0.19	rs1891453													6	41765265	41765265	T	C	het	het
 exonic	TTBK1	nonframeshift deletion	TTBK1:NM_032538:exon14:c.2248_2250del:p.750_750del	243;Name=lod=13			0.19	rs113160341													6	43250726	43250728	GAA	-	het	hom
-intronic	PTK7						0.15	rs1034246													6	43068370	43068370	G	T	hom	hom
-intronic	GLTSCR1L					0.124398	0.13	rs9381223													6	42823529	42823529	C	T	het	het
-downstream	TFEB						0.13	rs58205154													6	41651639	41651639	T	C	het	hom
 intronic	SRF						0.12	rs6914964													6	43146387	43146387	A	G	het	hom
-exonic	TFEB	synonymous SNV	TFEB:NM_001167827:exon3:c.G345A:p.G115G,TFEB:NM_001271944:exon3:c.G303A:p.G101G,TFEB:NM_001271945:exon3:c.G303A:p.G101G,TFEB:NM_007162:exon4:c.G303A:p.G101G	512;Name=lod=160		0.119330	0.12	rs2273068													6	41658566	41658566	C	T	het	het
-intronic	PTK7						0.10	rs45604140													6	43099607	43099607	C	G	het	het
-UTR3	TJAP1				0.91		0.09	rs72857288													6	43473884	43473884	A	C	het	het
-intronic	CUL9						0.08	rs16896344													6	43172430	43172430	G	A	het	hom
 UTR3	VEGFA						0.07	rs3025053													6	43753325	43753325	G	A	hom	het
-UTR3	PGC					0.098774	0.07	rs1316979													6	41708664	41708664	C	T	het	het
-intronic	SLC22A7						0.05	rs70953686													6	43269516	43269516	G	A	het	het
 intronic	SLC22A7					0.078041	0.05	rs70953680													6	43267831	43267831	G	A	het	het
 intronic	ZNF318					0.080368	0.05	rs41281796													6	43323917	43323917	G	A	het	het
-intronic	TFEB						0.05	rs115794288													6	41657673	41657673	G	A	het	het
-UTR3	TTBK1						0.05	rs111981370													6	43255380	43255380	G	T	het	het
 exonic	DNPH1	synonymous SNV	DNPH1:NM_006443:exon3:c.C270T:p.V90V,DNPH1:NM_199184:exon3:c.C270T:p.V90V			0.074626	0.04	rs7832													6	43193877	43193877	G	A	het	het
-downstream	CUL9,DNPH1						0.04	rs75660024													6	43193281	43193281	A	G	het	het
-intronic	CUL9					0.077656	0.04	rs75187159													6	43188173	43188173	A	G	het	het
-intronic	CUL9						0.04	rs56046707													6	43181379	43181379	A	C	het	hom
+intronic	CUL9						0.04	rs56046707													6	43181379	43181379	A	C	het	het
 UTR3	SRF			564;Name=lod=262			0.04	rs55848540													6	43148052	43148052	C	T	het	het
 intronic	CUL9						0.04	rs45448395													6	43189645	43189645	G	A	het	het
 UTR3	TTBK1						0.04	rs41275944													6	43254597	43254597	C	A	het	het
-intronic	DNPH1						0.04	rs2233823													6	43193947	43193947	G	A	het	het
 intronic	CUL9					0.081501	0.04	rs112422722													6	43190230	43190230	G	A	het	het
 intronic	ABCC10					0.057896	0.03	rs79175380													6	43411659	43411659	T	C	het	het
-exonic	PTK7	nonsynonymous SNV	PTK7:NM_152881:exon12:c.C1940T:p.A647V,PTK7:NM_152880:exon14:c.C2210T:p.A737V,PTK7:NM_152882:exon14:c.C2162T:p.A721V,PTK7:NM_001270398:exon15:c.C2354T:p.A785V,PTK7:NM_002821:exon15:c.C2330T:p.A777V			0.061126	0.03	rs34764696	0.02	0.919096	N	0.91	T	0.0	B	0.984448	N	0.024517	N	2.33	6	43112267	43112267	C	T	het	het
-exonic	TRERF1	nonsynonymous SNV	TRERF1:NM_033502:exon18:c.G3559A:p.D1187N	455;Name=lod=94		0.037675	0.03	rs11751765	0	0.984334	C	1.0	D	0.968	D	0.999995	D	0.972127	D	4.24	6	42196127	42196127	C	T	het	het
 intronic	PRPH2						0.01	rs115405259													6	42679358	42679358	T	C	het	het
-intronic	CCND3						0.0037	rs148451865													6	41908008	41908008	C	T	het	het
 exonic	GLTSCR1L	synonymous SNV	GLTSCR1L:NM_015349:exon12:c.A3063G:p.G1021G	369;Name=lod=42		0.013455	0.0037	rs138763422													6	42833007	42833007	A	G	het	het
-intronic	TRERF1					0.003504	0.0032	rs143180020													6	42225806	42225806	A	G	het	het
-intergenic	CNPY3(dist=17518),GNMT(dist=3974)						0.0018	rs181174031													6	42924526	42924526	A	T	het	het
 exonic	ZNF318	nonsynonymous SNV	ZNF318:NM_014345:exon10:c.A5824G:p.R1942G	349;Name=lod=35		0.000077		rs199654348	0.59	0.998073	C	1.0	D	0.125	B	0.998339	N	0.479586	N	3.99	6	43305912	43305912	T	C	het	het
 exonic	ZNF318	nonsynonymous SNV	ZNF318:NM_014345:exon10:c.C6824G:p.S2275C	251;Name=lod=14		0.000077		rs200855758	0	0.994351	C	1.0	D	0.88	D	0.99903	N	0.389447	N	4.43	6	43304912	43304912	G	C	het	het
-intronic	KLC4																				6	43038939	43038939	A	-	het	het
-intronic	PGC																				6	41712644	41712644	T	C	het	het
-intronic	POLH																				6	43573178	43573180	TTC	-	het	het
-intronic	POLH																				6	43573179	43573180	TC	-	het	het
-intronic	PTK7																				6	43112866	43112866	G	A	het	het
-intronic	UBR2																				6	42600675	42600675	T	-	het	het
-intronic	UBR2																				6	42600696	42600696	-	T	het	het
-intronic	UBR2																				6	42600696	42600696	-	T	het	het
-intronic	UBR2																				6	42608137	42608137	T	-	het	het
-intronic	XPO5																				6	43514528	43514528	A	-	het	het
-intronic	XPO5																				6	43521264	43521265	AC	-	het	het
-intronic	XPO5							rs11362688													6	43533306	43533306	A	-	het	het
-upstream	TRERF1			640;Name=lod=533																	6	42419876	42419876	T	-	het	het
-UTR3	MRPL2							rs142773863													6	43021910	43021910	-	A	het	het
-intronic	KLC4																				6	43037850	43037850	G	-	het	hom
-intronic	MED20							rs11418802													6	41876911	41876911	-	A	het	hom
-intronic	POLH																				6	43573176	43573176	C	-	het	hom
-intronic	POLH																				6	43573180	43573180	C	-	het	hom
-intronic	USP49							rs11351181													6	41839521	41839521	A	-	het	hom
-UTR5	CNPY3							rs111919077													6	42896948	42896948	-	CTC	het	hom
-intronic	MRPS10																				6	42176743	42176744	TG	-	hom	het
-intronic	MRPS10							rs3215607													6	42182222	42182222	A	-	hom	het
-intronic	MRPS10							rs35472345													6	42179411	42179411	-	A	hom	het
-intronic	UBR2							rs139800788													6	42608122	42608135	GTGTGTGTGTGTGT	-	hom	het
-UTR3	C6orf132							rs113105652													6	42070302	42070302	T	-	hom	het
-UTR3	MRPS10				0.96																6	42174963	42174963	-	T	hom	het
-UTR3	TRERF1																				6	42194279	42194279	-	CT	hom	het
-UTR3	TRERF1																				6	42194286	42194286	C	-	hom	het
-UTR3	TRERF1																				6	42194286	42194286	C	-	hom	het
 UTR3	TRERF1							rs200042915													6	42194278	42194278	-	C	hom	het
-UTR3	TRERF1							rs60843126													6	42194286	42194286	C	T	hom	het
-UTR3	TRERF1							rs60843126													6	42194286	42194286	C	T	hom	het
-intronic	PGC																				6	41712726	41712727	TG	-	hom	hom
-intronic	PGC							rs10542589													6	41712728	41712729	TC	-	hom	hom
-intronic	UBR2																				6	42608123	42608123	T	-	hom	hom
 ncRNA_exonic	LOC100132354							rs77608736													6	43858933	43858933	-	TC	hom	hom
-intronic	TJAP1																				6	43469452	43469459	ACACACAC	-	unknown	unknown
-intronic	UBR2																				6	42608124	42608137	GTGTGTGTGTGTGT	GGT	unknown	unknown
-intronic	UBR2							rs60472118													6	42627261	42627264	ACAC	-	unknown	unknown
-UTR3	PRPH2																				6	42665550	42665550	A	-	unknown	unknown

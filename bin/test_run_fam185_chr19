@@ -3,8 +3,8 @@
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 #---------- input --------------
-header_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK_header.vcf"
-tabix_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK.vcf.gz"
+header_file="/home/jessada/development/CMM/master_data/realign/merged/Mosaik_Samtools_header.vcf"
+tabix_file="/home/jessada/development/CMM/master_data/realign/merged/Mosaik_Samtools.vcf.gz"
 chr=19
 beginning=rs8109631
 ending=rs1529958

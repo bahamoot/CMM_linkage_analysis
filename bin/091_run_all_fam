@@ -11,6 +11,8 @@ region_dir="$script_dir/../region"
 #---------- input --------------
 header_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK_header.vcf"
 tabix_file="/home/jessada/development/CMM/master_data/CRC_screen4/bwa_GATK.vcf.gz"
+#header_file="/home/jessada/development/CMM/master_data/realign/merged/Mosaik_Samtools_header.vcf"
+#tabix_file="/home/jessada/development/CMM/master_data/realign/merged/Mosaik_Samtools.vcf.gz"
 chr=$1
 beginning=$2
 ending=$3
@@ -48,7 +50,6 @@ $run_fam_script $header_file $tabix_file $chr $region_out 0091 Co700 Co454
 $run_fam_script $header_file $tabix_file $chr $region_out 0254 Co616 Co1156
 $run_fam_script $header_file $tabix_file $chr $region_out 0485 Co1302 Co1322
 $run_fam_script $header_file $tabix_file $chr $region_out 0578 Co1349 531-04o
-$run_fam_script $header_file $tabix_file $chr $region_out 0325 Co851 Co859
 $run_fam_script $header_file $tabix_file $chr $region_out 0871 Co1661 Co1618
 $run_fam_script $header_file $tabix_file $chr $region_out 0141 Co305 Co785
 $run_fam_script $header_file $tabix_file $chr $region_out 0296 Co793 Co876

@@ -1,488 +1,96 @@
 Func	Gene	ExonicFunc	AAChange	Conserved	SegDup	ESP6500_ALL	1000g2012apr_ALL	dbSNP137	AVSIFT	LJB_PhyloP	LJB_PhyloP_Pred	LJB_SIFT	LJB_SIFT_Pred	LJB_PolyPhen2	LJB_PolyPhen2_Pred	LJB_LRT	LJB_LRT_Pred	LJB_MutationTaster	LJB_MutationTaster_Pred	LJB_GERP++	Chr	Start	End	Ref	Obs	Co1583	Co1584
 intronic	SPIRE1					0.996539	1.00	rs567709													18	12512574	12512574	T	C	hom	hom
-intronic	PIEZO2						1.00	rs2865131													18	10763218	10763218	T	C	hom	hom
-ncRNA_intronic	ANKRD20A5P				0.96		1.00	rs201148503													18	14215592	14215592	-	G	hom	hom
-intergenic	POTEC(dist=85364),ANKRD30B(dist=119276)				0.98		0.99	rs9973097													18	14628963	14628963	C	G	hom	hom
-intronic	ESCO1						0.99	rs971039													18	19155511	19155511	A	G	hom	hom
 intronic	ESCO1						0.99	rs6508480													18	19141096	19141096	C	T	hom	hom
 intronic	IMPA2					0.989177	0.99	rs643107													18	12014411	12014411	T	G	hom	hom
 intergenic	PIEZO2(dist=403761),GNAL(dist=136492)			512;Name=lod=161			0.99	rs557609													18	11552522	11552522	T	C	hom	hom
-ncRNA_intronic	ANKRD20A5P				0.96		0.99	rs520663													18	14202010	14202010	C	T	hom	hom
 intronic	ESCO1						0.99	rs4800780													18	19115896	19115896	A	T	hom	hom
 exonic	GREB1L	synonymous SNV	GREB1L:NM_001142966:exon22:c.A3555G:p.E1185E	498;Name=lod=141		0.987735	0.99	rs4800747													18	19079853	19079853	A	G	hom	hom
-exonic	GREB1L	nonframeshift insertion	GREB1L:NM_001142966:exon32:c.5582_5583insTCT:p.D1861delinsDL	680;Name=lod=771			0.99	rs34960489													18	19100758	19100758	-	TCT	hom	hom
-intergenic	POTEC(dist=88110),ANKRD30B(dist=116530)			602;Name=lod=373	0.98		0.99	rs28759159													18	14631709	14631709	A	G	hom	hom
 intronic	GREB1L						0.99	rs1395251													18	19100517	19100517	T	C	hom	hom
-intergenic	ANKRD30B(dist=421128),LOC644669(dist=39690)				0.98		0.99	rs13381561													18	15273865	15273865	A	C	hom	hom
 UTR3	MIB1						0.99	rs12961054													18	19448174	19448174	G	A	hom	hom
 UTR3	CHMP1B						0.98	rs7238570													18	11853731	11853731	A	G	hom	hom
 intronic	GREB1L						0.98	rs7234335													18	19065494	19065494	C	G	hom	hom
-intergenic	ANKRD62(dist=62532),C18orf61(dist=8498)			425;Name=lod=71	0.98		0.98	rs6505728													18	12192280	12192280	A	G	hom	hom
 exonic	ZNF519	nonsynonymous SNV	ZNF519:NM_145287:exon3:c.A616G:p.K206E		0.91	0.979241	0.98	rs2159940		0.07961	N	0.0	T	0.0	B	0.616646	NA	9.0E-6	N	0.22	18	14105923	14105923	T	C	hom	hom
 UTR3	CHMP1B						0.98	rs1647542													18	11853053	11853053	A	G	hom	hom
-intronic	MIB1						0.97	rs8098807													18	19399738	19399738	T	A	hom	hom
 intergenic	MC2R(dist=4362),ZNF519(dist=180045)			705;Name=lod=978			0.97	rs8083854													18	13919897	13919897	T	C	hom	hom
-intergenic	ZNF519(dist=24884),ANKRD20A5P(dist=21723)				0.96		0.97	rs7505684													18	14157373	14157373	T	A	hom	hom
-intronic	MIB1			630;Name=lod=486			0.97	rs6508648													18	19434972	19434972	T	C	hom	hom
 intronic	CIDEA						0.97	rs6505738													18	12264512	12264512	T	C	hom	hom
 intronic	GNAL						0.97	rs4315401													18	11864707	11864707	A	G	hom	hom
 UTR3	PTPN2			656;Name=lod=618			0.97	rs2542156													18	12785557	12785557	C	T	hom	hom
-exonic	ANKRD30B	nonsynonymous SNV	ANKRD30B:NM_001145029:exon36:c.C4035A:p.N1345K		0.98		0.97	rs12386087													18	14852335	14852335	C	A	hom	hom
-intergenic	PIEZO2(dist=477125),GNAL(dist=63128)				0.98		0.97	rs1140919													18	11625886	11625886	T	C	hom	hom
-intergenic	ANKRD30B(dist=35989),LOC644669(dist=424829)			634;Name=lod=503	0.98		0.96	rs786064													18	14888726	14888726	C	A	hom	hom
-intergenic	ANKRD30B(dist=33704),LOC644669(dist=427114)				0.98		0.96	rs786059													18	14886441	14886441	G	A	hom	hom
 intronic	PTPN2						0.96	rs4239309													18	12825705	12825705	A	T	hom	hom
-intergenic	PIEZO2(dist=485166),GNAL(dist=55087)				0.98		0.96	rs1815802													18	11633927	11633927	A	G	hom	hom
 intronic	MIB1			671;Name=lod=710		0.951860	0.94	rs9989532													18	19408950	19408950	C	T	hom	hom
-intergenic	ANKRD30B(dist=34912),LOC644669(dist=425906)				0.98		0.94	rs71365293													18	14887649	14887649	A	G	hom	hom
-intergenic	PIEZO2(dist=472267),GNAL(dist=67986)				0.98		0.94	rs62099570													18	11621028	11621028	T	C	hom	hom
 UTR3	FAM210A						0.93	rs948276													18	13665589	13665589	A	C	het	hom
-intergenic	PIEZO2(dist=472697),GNAL(dist=67556)				0.98		0.93	rs2126779													18	11621458	11621458	A	G	hom	hom
-intergenic	ZNF519(dist=23654),ANKRD20A5P(dist=22953)				0.96		0.93	rs149108958													18	14156143	14156143	A	G	hom	hom
 UTR3	FAM210A						0.93	rs1149355													18	13666156	13666156	A	G	het	hom
-intergenic	ANKRD30B(dist=33397),LOC644669(dist=427421)				0.98		0.92	rs77739899													18	14886134	14886134	G	A	hom	hom
-intergenic	CYP4F35P(dist=34227),CXADRP3(dist=101204)				0.98		0.92	rs2870573													18	14376750	14376750	T	C	hom	hom
 intronic	RBBP8					0.941433	0.92	rs2336916													18	20555219	20555219	T	C	hom	hom
-intergenic	PIEZO2(dist=472686),GNAL(dist=67567)				0.98		0.92	rs2126778													18	11621447	11621447	A	G	hom	hom
-intronic	RNMT						0.91	rs4797809													18	13746111	13746111	G	A	het	het
 UTR3	RNMT						0.91	rs4461147													18	13762011	13762011	C	A	hom	hom
-intergenic	PIEZO2(dist=470710),GNAL(dist=69543)				0.98		0.91	rs28439088													18	11619471	11619471	C	T	het	het
-intergenic	POTEC(dist=87898),ANKRD30B(dist=116742)			602;Name=lod=373	0.98		0.91	rs151176845													18	14631497	14631497	A	G	hom	hom
 UTR3	RNMT						0.91	rs1296359													18	13763653	13763653	G	A	het	hom
 UTR3	LDLRAD4						0.91	rs1293686													18	13651570	13651570	G	A	het	hom
-intergenic	IMPA2(dist=45619),ANKRD62(dist=17344)			405;Name=lod=59			0.90	rs12966109													18	12076504	12076504	A	C	hom	hom
 UTR3	FAM210A						0.89	rs948277													18	13665686	13665686	A	C	het	hom
 UTR5	LDLRAD4						0.89	rs1284441													18	13612072	13612072	C	T	hom	het
-exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon16:c.C2305T:p.L769L			0.836766	0.88	rs6505592													18	10787047	10787047	G	A	het	het
-UTR3	SLMO1						0.88	rs12605433													18	12431428	12431428	A	G	hom	hom
-intergenic	ZNF519(dist=23752),ANKRD20A5P(dist=22855)				0.96		0.88	rs115684852													18	14156241	14156241	A	T	hom	hom
 exonic	ESCO1	synonymous SNV	ESCO1:NM_052911:exon4:c.G1311A:p.T437T			0.825850	0.87	rs973730													18	19153494	19153494	C	T	hom	hom
-intronic	PIEZO2						0.87	rs3830641													18	10784734	10784734	A	-	het	het
-intronic	PIEZO2						0.87	rs2870106													18	10789014	10789014	G	A	het	het
 intronic	ESCO1						0.87	rs1818274													18	19119801	19119801	C	T	hom	hom
-intronic	PIEZO2			431;Name=lod=75		0.842751	0.86	rs5024299													18	10741011	10741011	G	A	het	het
 exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon20:c.A2961G:p.T987T			0.836399	0.85	rs7227167													18	10763007	10763007	T	C	het	het
-intronic	RNMT						0.85	rs6505839													18	13752128	13752128	T	A	hom	hom
 exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon25:c.C3792T:p.N1264N	525;Name=lod=182		0.823916	0.84	rs7407105													18	10758023	10758023	G	A	het	het
-intronic	PIEZO2						0.84	rs7242408													18	10757868	10757868	A	G	hom	het
-intergenic	CYP4F35P(dist=49933),CXADRP3(dist=85498)			634;Name=lod=503	0.98		0.84	rs41362448													18	14392456	14392456	T	C	hom	hom
+intronic	PIEZO2						0.84	rs7242408													18	10757868	10757868	A	G	het	het
 intronic	MIB1						0.84	rs3216119													18	19423964	19423964	T	-	hom	hom
-intronic	PIEZO2					0.826106	0.84	rs2865119													18	10759935	10759935	A	G	hom	hom
-intronic	PIEZO2						0.84	rs2865118													18	10759961	10759961	G	A	hom	het
-intergenic	CYP4F35P(dist=33626),CXADRP3(dist=101805)				0.98		0.84	rs2669352													18	14376149	14376149	G	C	hom	hom
-intergenic	CYP4F35P(dist=36010),CXADRP3(dist=99421)				0.98		0.84	rs2137484													18	14378533	14378533	G	C	hom	hom
-intronic	SPIRE1					0.837921	0.82	rs550613													18	12512559	12512559	C	A	hom	hom
 UTR3	SLMO1						0.82	rs1652670													18	12431210	12431210	A	G	hom	hom
 intronic	IMPA2						0.81	rs612599													18	12028247	12028247	A	G	hom	hom
 intronic	GREB1L						0.81	rs11313178													18	19100893	19100893	A	-	hom	hom
-exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon20:c.C3006T:p.L1002L			0.789093	0.80	rs7241380													18	10762962	10762962	G	A	het	het
 intronic	PIEZO2						0.78	rs7236754													18	11066010	11066010	T	C	het	het
 intronic	SLMO1						0.78	rs66495781													18	12421442	12421442	T	A	hom	hom
 downstream	CIDEA						0.78	rs6416992													18	12277613	12277613	T	C	hom	hom
 intronic	SPIRE1					0.744079	0.78	rs499013													18	12453005	12453005	A	G	het	hom
 UTR3	SPIRE1						0.78	rs496485													18	12447303	12447303	C	A	het	hom
 UTR3	SPIRE1			259;Name=lod=15			0.78	rs4190													18	12446733	12446733	A	-	het	hom
-UTR3	SPIRE1						0.78	rs3935													18	12448430	12448430	C	A	het	hom
-exonic	POTEC	nonsynonymous SNV	POTEC:NM_001137671:exon1:c.A7G:p.T3A		0.98		0.78	rs28535987													18	14543139	14543139	T	C	hom	hom
-intergenic	PIEZO2(dist=461143),GNAL(dist=79110)			536;Name=lod=202	0.96		0.76	rs8087447													18	11609904	11609904	A	G	het	hom
-intergenic	PIEZO2(dist=470791),GNAL(dist=69462)				0.98		0.76	rs67129808													18	11619552	11619552	C	T	het	hom
-intergenic	PIEZO2(dist=470791),GNAL(dist=69462)				0.98		0.76	rs67129808													18	11619552	11619552	C	T	het	het
 exonic	CTAGE1	synonymous SNV	CTAGE1:NM_172241:exon1:c.A2022G:p.P674P		0.92	0.734370	0.74	rs9946145													18	19995753	19995753	T	C	hom	hom
 intronic	MPPE1						0.74	rs673735													18	11893391	11893391	C	T	het	hom
-intergenic	PIEZO2(dist=461142),GNAL(dist=79111)			536;Name=lod=202	0.96		0.73	rs8087561													18	11609903	11609903	C	G	het	hom
 intergenic	CTAGE1(dist=351516),RBBP8(dist=163901)						0.73	rs7244995													18	20349394	20349394	C	T	hom	hom
-intergenic	CTAGE1(dist=351448),RBBP8(dist=163969)						0.73	rs34764721													18	20349326	20349326	-	T	hom	hom
 intronic	PIEZO2						0.72	rs7231609													18	11065993	11065993	A	G	het	het
 UTR3	GNAL						0.72	rs113066080													18	11881516	11881516	G	-	hom	het
 intronic	AFG3L2						0.71	rs2298542													18	12363950	12363950	C	T	het	hom
 UTR3	GNAL					0.607643	0.69	rs643652													18	11884670	11884670	C	G	hom	hom
 UTR3	GNAL			309;Name=lod=24			0.69	rs641010													18	11882794	11882794	T	C	hom	hom
-intergenic	ANKRD30B(dist=144926),LOC644669(dist=315892)			617;Name=lod=430	0.97		0.68	rs907504													18	14997663	14997663	A	T	hom	hom
-intergenic	CYP4F35P(dist=34640),CXADRP3(dist=100791)				0.98		0.67	rs6423428													18	14377163	14377163	T	C	het	hom
-intergenic	ANKRD30B(dist=152999),LOC644669(dist=307819)				0.97		0.67	rs4890719													18	15005736	15005736	G	A	hom	hom
-intronic	GNAL					0.676303	0.67	rs1647557													18	11824886	11824886	T	G	het	hom
-intronic	GNAL					0.711704	0.67	rs1647556													18	11824880	11824880	T	A	het	hom
 exonic	PIEZO2	synonymous SNV	PIEZO2:NM_022068:exon28:c.T4215A:p.L1405L			0.656373	0.66	rs8096037													18	10748603	10748603	A	T	het	het
 intronic	PIEZO2					0.657468	0.66	rs8093389													18	10744108	10744108	G	A	het	het
 UTR3	MIB1						0.66	rs7449													18	19446993	19446993	G	C	hom	hom
-intergenic	ZNF519(dist=11150),ANKRD20A5P(dist=35457)			410;Name=lod=62	0.96		0.66	rs2869805													18	14143639	14143639	A	G	hom	hom
 intronic	GNAL						0.66	rs1647555													18	11824829	11824829	A	G	het	hom
-intronic	GNAL						0.66	rs1647554													18	11824772	11824772	C	G	het	hom
-ncRNA_exonic	CYP4F35P				0.96		0.65	rs7232691													18	14341566	14341566	T	C	hom	hom
-ncRNA_intronic	CYP4F35P				0.96		0.65	rs1984679													18	14339108	14339108	G	C	hom	hom
-intergenic	CYP4F35P(dist=35159),CXADRP3(dist=100272)			519;Name=lod=172	0.98		0.64	rs4797919													18	14377682	14377682	C	T	het	hom
-intergenic	PIEZO2(dist=469461),GNAL(dist=70792)				0.98		0.63	rs62099565													18	11618222	11618222	A	G	hom	hom
 intergenic	IMPA2(dist=36892),ANKRD62(dist=26071)			666;Name=lod=680			0.62	rs6505712													18	12067777	12067777	T	C	het	hom
-intergenic	POTEC(dist=84943),ANKRD30B(dist=119697)				0.98		0.60	rs9303819													18	14628542	14628542	A	G	hom	hom
-intronic	RBBP8						0.60	rs7227956													18	20513818	20513818	C	G	hom	hom
-intronic	RBBP8						0.60	rs7227956													18	20513818	20513818	C	G	hom	het
-intergenic	PIEZO2(dist=476617),GNAL(dist=63636)				0.98		0.60	rs200003993													18	11625378	11625378	-	A	het	het
-intergenic	IMPA2(dist=25727),ANKRD62(dist=37236)			502;Name=lod=146	0.91		0.59	rs7231981													18	12056612	12056612	T	C	het	hom
-ncRNA_intronic	ANKRD20A5P				0.96		0.59	rs4797872													18	14179603	14179603	A	G	hom	hom
-intergenic	POTEC(dist=69855),ANKRD30B(dist=134785)				0.98		0.59	rs3910686													18	14613454	14613454	T	G	hom	hom
-intergenic	POTEC(dist=70216),ANKRD30B(dist=134424)				0.98		0.59	rs12960773													18	14613815	14613815	A	G	hom	hom
 UTR3	GNAL						0.59	rs12373386													18	11882206	11882206	T	C	hom	hom
-intergenic	POTEC(dist=87983),ANKRD30B(dist=116657)			602;Name=lod=373	0.98		0.59	rs10221330													18	14631582	14631582	C	T	hom	hom
-intergenic	IMPA2(dist=26504),ANKRD62(dist=36459)			579;Name=lod=300	0.91		0.58	rs9959781													18	12057389	12057389	C	G	hom	hom
-intergenic	IMPA2(dist=26518),ANKRD62(dist=36445)			579;Name=lod=300	0.91		0.58	rs9959774													18	12057403	12057403	A	G	het	hom
-intergenic	IMPA2(dist=26310),ANKRD62(dist=36653)			463;Name=lod=102	0.91		0.58	rs9959517													18	12057195	12057195	A	G	hom	hom
-intergenic	IMPA2(dist=25711),ANKRD62(dist=37252)			502;Name=lod=146	0.91		0.58	rs7231001													18	12056596	12056596	G	A	het	hom
-intergenic	IMPA2(dist=25532),ANKRD62(dist=37431)				0.91		0.58	rs4617931													18	12056417	12056417	C	T	het	hom
-intergenic	IMPA2(dist=25308),ANKRD62(dist=37655)				0.91		0.58	rs4516292													18	12056193	12056193	T	C	het	hom
-intergenic	IMPA2(dist=25965),ANKRD62(dist=36998)			374;Name=lod=44	0.91		0.57	rs4643402													18	12056850	12056850	C	T	hom	hom
 intergenic	IMPA2(dist=36877),ANKRD62(dist=26086)			666;Name=lod=680			0.56	rs7506731													18	12067762	12067762	C	T	het	hom
-intergenic	IMPA2(dist=25690),ANKRD62(dist=37273)			502;Name=lod=146	0.91		0.56	rs7230733													18	12056575	12056575	C	T	het	hom
-intergenic	IMPA2(dist=37034),ANKRD62(dist=25929)						0.56	rs12966234													18	12067919	12067919	G	A	het	hom
-intronic	ANKRD62				0.96		0.55	rs9303759													18	12126407	12126407	T	A	hom	hom
-intergenic	ANKRD62(dist=1749),C18orf61(dist=69281)				0.96		0.55	rs12969296													18	12131497	12131497	C	T	hom	hom
-intronic	ANKRD62				0.90		0.53	rs9948384													18	12101808	12101808	G	A	het	hom
-intronic	ANKRD62			659;Name=lod=633	0.90		0.53	rs8095234													18	12102156	12102156	G	C	het	hom
-ncRNA_intronic	ANKRD20A5P				0.96		0.53	rs508563													18	14183550	14183550	G	A	het	het
-exonic	ANKRD62	unknown	UNKNOWN				0.53	rs4519391													18	12115509	12115509	G	A	het	hom
 intronic	ANKRD62				0.90		0.52	rs8095647													18	12102407	12102407	G	A	het	hom
 exonic	ANKRD30B	synonymous SNV	ANKRD30B:NM_001145029:exon3:c.G456A:p.L152L		0.92	0.484888	0.52	rs12457503													18	14752957	14752957	G	A	hom	hom
-intergenic	ZNF519(dist=24802),ANKRD20A5P(dist=21805)			623;Name=lod=454	0.96		0.51	rs9959262													18	14157291	14157291	A	T	hom	hom
-ncRNA_exonic	ANKRD20A5P				0.96		0.51	rs565541													18	14183720	14183720	C	T	het	het
 UTR3	MIB1						0.51	rs14062													18	19450303	19450303	A	G	hom	hom
 intergenic	IMPA2(dist=61479),ANKRD62(dist=1484)			496;Name=lod=138			0.51	rs13381564													18	12092364	12092364	C	A	het	hom
 intergenic	IMPA2(dist=61641),ANKRD62(dist=1322)			517;Name=lod=169			0.51	rs12958791													18	12092526	12092526	T	C	het	hom
-intronic	MPPE1						0.48	rs8097892													18	11905953	11905953	C	T	het	hom
-intronic	ANKRD30B				0.92		0.48	rs45620343													18	14752768	14752768	G	A	hom	hom
 intronic	RBBP8						0.47	rs3052770													18	20564801	20564803	TCA	-	hom	hom
-intronic	RBBP8						0.46	rs2305886													18	20577456	20577456	T	A	hom	hom
-intergenic	PIEZO2(dist=495922),GNAL(dist=44331)				0.97		0.46	rs138822941													18	11644683	11644683	A	G	het	hom
-intronic	ANKRD30B				0.92		0.46	rs11080793													18	14780082	14780082	G	A	hom	hom
-intronic	ANKRD30B				0.96		0.44	rs9676173													18	14796443	14796443	G	T	hom	hom
-intronic	SLMO1					0.421113	0.44	rs3760550													18	12429313	12429313	C	T	het	hom
-intronic	ANKRD30B				0.96		0.44	rs12607246													18	14798742	14798742	T	G	hom	hom
+intronic	SLMO1					0.421113	0.44	rs3760550													18	12429313	12429313	C	T	het	het
 intronic	GREB1L						0.43	rs9947441													18	19100854	19100854	A	G	hom	hom
-intronic	POTEC				0.98	0.550153	0.43	rs6505912													18	14538010	14538010	T	C	hom	hom
-intergenic	ANKRD30B(dist=34776),LOC644669(dist=426042)				0.98		0.41	rs3960914													18	14887513	14887513	G	A	hom	hom
 intronic	SPIRE1					0.392685	0.41	rs12454931													18	12634986	12634986	T	G	het	hom
-intronic	PIEZO2				0.93		0.40	rs482103													18	10727926	10727926	G	A	het	het
-UTR3	SLMO1						0.40	rs12605427													18	12431342	12431342	C	A	het	hom
-intergenic	PIEZO2(dist=388562),GNAL(dist=151691)						0.38	rs148453039													18	11537323	11537323	-	TTTA	hom	hom
-exonic	CIDEA	nonsynonymous SNV	CIDEA:NM_001279:exon4:c.G343T:p.V115F			0.305936	0.37	rs11545881		0.018534	N	0.57	T	0.024	B	4.76E-4	N	0.014646	N	-7.7	18	12274104	12274104	G	T	het	het
-ncRNA_exonic	CXADRP3			528;Name=lod=186	0.98		0.36	rs74544178													18	14478229	14478229	T	C	hom	hom
 UTR3	GNAL						0.36	rs602201													18	11882268	11882268	T	A	hom	het
-exonic	ANKRD30B	nonsynonymous SNV	ANKRD30B:NM_001145029:exon34:c.C2930T:p.T977M	243;Name=lod=13	0.98		0.36	rs4090319													18	14848820	14848820	C	T	hom	hom
-intergenic	ZNF519(dist=18433),ANKRD20A5P(dist=28174)				0.96		0.35	rs6505877													18	14150922	14150922	T	C	hom	hom
 ncRNA_exonic	CYP4F35P				0.96		0.35	rs1984680													18	14338752	14338752	A	C	hom	hom
 intronic	CEP76,PSMG2						0.34	rs9962006													18	12700849	12700849	G	A	het	hom
-intronic	PSMG2					0.415600	0.34	rs3809919													18	12703192	12703192	C	T	het	hom
-UTR5	PSMG2					0.408615	0.34	rs3809916													18	12703067	12703067	A	G	het	hom
-UTR5	POTEC				0.98		0.34	rs28695525													18	14543452	14543452	A	G	hom	hom
-intronic	CEP76,PSMG2					0.397740	0.34	rs12966424													18	12678486	12678486	A	G	het	hom
-ncRNA_exonic	CYP4F35P				0.96		0.34	rs12962258													18	14337724	14337724	G	T	hom	hom
 intronic	CEP76,PSMG2						0.34	rs12960997													18	12691610	12691610	A	G	het	hom
-ncRNA_intronic	CYP4F35P				0.96		0.34	rs11665197													18	14340870	14340870	G	A	hom	hom
-intergenic	PIEZO2(dist=469512),GNAL(dist=70741)				0.98		0.33	rs62099566													18	11618273	11618273	T	C	hom	het
-ncRNA_exonic	CYP4F35P				0.96		0.33	rs4797903													18	14338057	14338057	A	G	hom	hom
-ncRNA_exonic	CYP4F35P				0.96		0.33	rs3927191													18	14338451	14338451	G	C	hom	hom
 exonic	PSMG2	synonymous SNV	PSMG2:NM_020232:exon4:c.A366G:p.S122S,PSMG2:NM_147163:exon4:c.A273G:p.S91S			0.399047	0.33	rs2302768													18	12718593	12718593	A	G	het	hom
-intergenic	CYP4F35P(dist=33574),CXADRP3(dist=101857)				0.98		0.33	rs1849419													18	14376097	14376097	C	A	het	hom
-intergenic	ZNF519(dist=18839),ANKRD20A5P(dist=27768)				0.96		0.32	rs56300453													18	14151328	14151328	G	C	hom	hom
-intergenic	CYP4F35P(dist=34323),CXADRP3(dist=101108)				0.98		0.32	rs12963122													18	14376846	14376846	G	A	het	hom
 UTR3	AFG3L2					0.277180	0.32	rs1129115													18	12329536	12329536	C	G	hom	het
-exonic	POTEC	nonsynonymous SNV	POTEC:NM_001137671:exon1:c.C256G:p.H86D		0.98		0.30	rs45469098													18	14542890	14542890	G	C	het	het
-intergenic	CYP4F35P(dist=34414),CXADRP3(dist=101017)				0.98		0.29	rs7239841													18	14376937	14376937	C	T	het	hom
-intergenic	CYP4F35P(dist=36098),CXADRP3(dist=99333)				0.98		0.29	rs55811695													18	14378621	14378621	C	T	het	hom
-intergenic	CYP4F35P(dist=33602),CXADRP3(dist=101829)				0.98		0.28	rs4095530													18	14376125	14376125	G	A	het	hom
 exonic	MC5R	synonymous SNV	MC5R:NM_005913:exon1:c.C744T:p.T248T	554;Name=lod=237		0.214824	0.27	rs2236701													18	13826508	13826508	C	T	het	hom
-exonic	MC5R	nonsynonymous SNV	MC5R:NM_005913:exon1:c.C627G:p.F209L	495;Name=lod=137		0.218438	0.27	rs2236700		0.964603	C	0.78	T	0.999	D	1.0	D	0.999872	P	3.54	18	13826391	13826391	C	G	het	het
-UTR3	MC5R						0.27	rs11080686													18	13826837	13826837	A	C	het	het
-intergenic	ZNF519(dist=20464),ANKRD20A5P(dist=26143)			579;Name=lod=302	0.96		0.26	rs12969945													18	14152953	14152953	A	G	hom	hom
-intergenic	ZNF519(dist=16160),ANKRD20A5P(dist=30447)			672;Name=lod=716	0.96		0.26	rs11660012													18	14148649	14148649	A	G	hom	hom
 intergenic	IMPA2(dist=45555),ANKRD62(dist=17408)			778;Name=lod=1937			0.25	rs35530473													18	12076440	12076440	G	A	het	hom
 intronic	ANKRD62			659;Name=lod=633	0.90		0.24	rs12963390													18	12102188	12102188	G	T	het	hom
-intergenic	PIEZO2(dist=461360),GNAL(dist=78893)			536;Name=lod=202	0.97		0.23	rs71360888													18	11610121	11610121	G	A	het	het
 intronic	CEP76,PSMG2						0.23	rs137976891													18	12700919	12700922	ATAT	-	het	hom
-intergenic	ZNF519(dist=18597),ANKRD20A5P(dist=28010)			523;Name=lod=178	0.96		0.23	rs12963813													18	14151086	14151086	G	A	hom	hom
-intergenic	PIEZO2(dist=460966),GNAL(dist=79287)			536;Name=lod=202	0.96		0.22	rs8087289													18	11609727	11609727	C	A	het	het
-intergenic	PIEZO2(dist=461220),GNAL(dist=79033)			536;Name=lod=202	0.96		0.22	rs71360883													18	11609981	11609981	T	C	het	het
-intergenic	PIEZO2(dist=461217),GNAL(dist=79036)			536;Name=lod=202	0.96		0.22	rs71360882													18	11609978	11609978	C	T	het	het
-intergenic	PIEZO2(dist=460769),GNAL(dist=79484)				0.96		0.22	rs71360880													18	11609530	11609530	G	A	het	het
 UTR3	RNMT						0.22	rs3760533													18	13760290	13760290	T	C	het	hom
-UTR3	LDLRAD4						0.22	rs3744812													18	13649600	13649600	C	T	het	hom
-intronic	SPIRE1						0.22	rs34823385													18	12610993	12610993	G	T	hom	hom
 intronic	CEP76,PSMG2						0.22	rs34277169													18	12695415	12695415	C	A	het	het
-intergenic	PIEZO2(dist=461388),GNAL(dist=78865)			536;Name=lod=202	0.97		0.20	rs71360889													18	11610149	11610149	G	A	het	het
-intergenic	POTEC(dist=89191),ANKRD30B(dist=115449)				0.98		0.20	rs62081738													18	14632790	14632790	C	T	hom	hom
 intronic	RNMT						0.20	rs3831428													18	13741789	13741790	TT	-	het	hom
 UTR3	FAM210A						0.20	rs3809899													18	13664222	13664222	C	T	het	hom
 UTR3	RNMT						0.20	rs11659762													18	13760954	13760954	T	C	het	hom
-intergenic	PIEZO2(dist=469424),GNAL(dist=70829)				0.98		0.19	rs62099564													18	11618185	11618185	C	T	het	het
-intergenic	PIEZO2(dist=470760),GNAL(dist=69493)				0.98		0.18	rs116059647													18	11619521	11619521	G	A	het	het
 intronic	RNMT						0.18	rs11080684													18	13726816	13726816	C	A	het	hom
-UTR3	CTAGE1						0.17	rs8093101													18	19994344	19994344	A	C	hom	het
-intergenic	PIEZO2(dist=469513),GNAL(dist=70740)				0.98		0.17	rs62099567													18	11618274	11618274	G	A	hom	het
-UTR5	ZNF519				0.96		0.16	rs9958799													18	14132402	14132402	G	C	het	hom
-intergenic	PIEZO2(dist=495224),GNAL(dist=45029)						0.16	rs12959318													18	11643985	11643985	A	G	het	hom
-intergenic	CYP4F35P(dist=88796),CXADRP3(dist=46635)				0.98		0.15	rs149297632													18	14431319	14431319	G	T	het	het
-intergenic	PIEZO2(dist=461050),GNAL(dist=79203)			536;Name=lod=202	0.96		0.14	rs71360881													18	11609811	11609811	G	C	het	het
 exonic	PIEZO2	nonsynonymous SNV	PIEZO2:NM_022068:exon23:c.G3443T:p.C1148F	569;Name=lod=273		0.156592	0.14	rs35033671													18	10759840	10759840	C	A	het	het
-intergenic	PIEZO2(dist=495972),GNAL(dist=44281)				0.97		0.13	rs12965390													18	11644733	11644733	T	C	het	hom
-intergenic	PIEZO2(dist=490511),GNAL(dist=49742)				0.98		0.12	rs143719818													18	11639272	11639272	T	A	het	het
 exonic	MC5R	synonymous SNV	MC5R:NM_005913:exon1:c.G243T:p.A81A			0.059895	0.10	rs2236699													18	13826007	13826007	G	T	het	het
-intergenic	CTAGE1(dist=168522),RBBP8(dist=346895)						0.10	rs113232872													18	20166400	20166400	T	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96		0.09	rs7506568													18	14216805	14216805	C	T	hom	het
 exonic	GREB1L	synonymous SNV	GREB1L:NM_001142966:exon32:c.T5541C:p.S1847S	680;Name=lod=771		0.171047	0.09	rs17720074													18	19100717	19100717	T	C	hom	het
-UTR3	GNAL						0.09														18	11883448	11883448	-	A	het	het
-intronic	PIEZO2					0.067455	0.06	rs78691268													18	10731390	10731390	C	G	het	het
 UTR5	LDLRAD4						0.05	rs71353260													18	13278140	13278140	G	C	het	het
-intronic	MIB1						0.01	rs17665147													18	19383778	19383778	G	A	het	het
 UTR3	PTPN2			599;Name=lod=364			0.01	rs141776678													18	12793763	12793766	TAAA	-	hom	het
 UTR3	CHMP1B						0.01	rs117509514													18	11853215	11853215	C	A	het	het
-intronic	ESCO1						0.0041	rs149146906													18	19180512	19180512	C	T	het	het
-UTR3	GNAL						0.0032	rs187326028													18	11882250	11882250	C	T	het	het
-downstream	SEH1L			524;Name=lod=180																	18	12987550	12987552	TCT	-	het	het
-exonic	POTEC	nonsynonymous SNV	POTEC:NM_001137671:exon1:c.G355A:p.A119T		0.98			rs201849570													18	14542791	14542791	C	T	het	het
-exonic	POTEC	synonymous SNV	POTEC:NM_001137671:exon1:c.C237T:p.N79N		0.98			rs8040519													18	14542909	14542909	G	A	het	het
-exonic	ROCK1	nonsynonymous SNV	ROCK1:NM_005406:exon31:c.C3649G:p.Q1217E	728;Name=lod=1216	0.99			rs201390233		0.999529	C	0.21	T	0.0010	B	0.999999	D	0.896868	D	5.08	18	18534948	18534948	G	C	het	het
-intergenic	ANKRD30B(dist=419415),LOC644669(dist=41403)			423;Name=lod=70	0.98			rs190079785													18	15272152	15272152	G	A	het	het
-intergenic	ANKRD30B(dist=419420),LOC644669(dist=41398)			423;Name=lod=70	0.98			rs201184998													18	15272157	15272157	G	T	het	het
-intergenic	ANKRD30B(dist=419433),LOC644669(dist=41385)			423;Name=lod=70	0.98			rs201940398													18	15272170	15272170	C	A	het	het
-intergenic	ANKRD30B(dist=420634),LOC644669(dist=40184)				0.98			rs200288457													18	15273371	15273371	G	T	het	het
-intergenic	ANKRD30B(dist=420637),LOC644669(dist=40181)				0.98			rs112221497													18	15273374	15273374	A	T	het	het
-intergenic	ANKRD30B(dist=420644),LOC644669(dist=40174)				0.98			rs112099213													18	15273381	15273381	A	C	het	het
-intergenic	ANKRD30B(dist=455093),LOC644669(dist=5725)				0.98			rs73427096													18	15307830	15307830	T	G	het	het
-intergenic	ANKRD30B(dist=455254),LOC644669(dist=5564)				0.98			rs79994734													18	15307991	15307991	A	G	het	het
-intergenic	CYP4F35P(dist=48261),CXADRP3(dist=87170)				0.98																18	14390784	14390784	C	T	het	het
-intergenic	IMPA2(dist=9388),ANKRD62(dist=53575)			284;Name=lod=19																	18	12040273	12040273	T	-	het	het
-intergenic	IMPA2(dist=9396),ANKRD62(dist=53567)																				18	12040281	12040281	-	TC	het	het
-intergenic	IMPA2(dist=9397),ANKRD62(dist=53566)							rs55754026													18	12040282	12040282	-	C	het	het
-intergenic	LOC644669(dist=4428),NONE(dist=NONE)				0.98			rs73429068													18	15330346	15330346	A	G	het	het
-intergenic	MPPE1(dist=4979),IMPA2(dist=67652)							rs4347692													18	11913775	11913775	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10185)																				18	18519518	18519518	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10194)																				18	18519509	18519509	G	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10204)																				18	18519499	18519499	C	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10208)																				18	18519495	18519495	G	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10218)																				18	18519485	18519485	G	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10220)																				18	18519483	18519483	-	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10222)																				18	18519481	18519481	G	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10227)																				18	18519476	18519476	A	-	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10228)																				18	18519475	18519475	G	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10231)																				18	18519471	18519472	CC	-	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10232)																				18	18519471	18519471	C	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10234)																				18	18519469	18519469	C	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10244)																				18	18519459	18519459	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10247)																				18	18519456	18519456	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10254)																				18	18519449	18519449	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10257)																				18	18519446	18519446	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10259)																				18	18519444	18519444	C	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10262)																				18	18519441	18519441	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10263)																				18	18519440	18519440	G	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10345)							rs201333303													18	18519358	18519358	G	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10346)							rs200498983													18	18519357	18519357	T	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10370)							rs199811185													18	18519333	18519333	G	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10384)							rs201522143													18	18519319	18519319	A	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10429)							rs200433038													18	18519274	18519274	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10437)							rs199512350													18	18519266	18519266	G	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10438)							rs201468998													18	18519265	18519265	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10441)							rs113630845													18	18519262	18519262	A	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10503)																				18	18519200	18519200	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10512)																				18	18519191	18519191	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10536)																				18	18519167	18519167	C	A	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10554)																				18	18519149	18519149	C	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10555)																				18	18519148	18519148	A	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10674)																				18	18519029	18519029	G	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10682)							rs4977040													18	18519021	18519021	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10689)																				18	18519014	18519014	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10947)							rs71238957													18	18518756	18518756	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10950)							rs74989412													18	18518753	18518753	A	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=11948)																				18	18517755	18517755	G	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=11982)							rs111460957													18	18517721	18517721	A	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=12371)							rs4066570													18	18517332	18517332	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=12498)							rs4415768													18	18517205	18517205	T	C	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=12501)							rs62088491													18	18517202	18517202	A	G	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=12519)							rs4401131													18	18517184	18517184	C	T	het	het
-intergenic	NONE(dist=NONE),ROCK1(dist=12569)							rs200251518													18	18517134	18517134	T	G	het	het
-intergenic	PIEZO2(dist=460659),GNAL(dist=79594)				0.96																18	11609420	11609420	-	G	het	het
-intergenic	PIEZO2(dist=460660),GNAL(dist=79593)				0.96																18	11609421	11609421	-	AAG	het	het
-intergenic	PIEZO2(dist=460660),GNAL(dist=79593)				0.96			rs12954466													18	11609421	11609421	A	G	het	het
-intergenic	PIEZO2(dist=461233),GNAL(dist=79020)			536;Name=lod=202	0.96			rs71360884													18	11609994	11609994	C	T	het	het
-intergenic	PIEZO2(dist=461240),GNAL(dist=79013)			536;Name=lod=202	0.96			rs71360885													18	11610001	11610001	A	G	het	het
-intergenic	PIEZO2(dist=461263),GNAL(dist=78990)			536;Name=lod=202	0.96			rs71360886													18	11610024	11610024	A	G	het	het
-intergenic	PIEZO2(dist=461588),GNAL(dist=78665)			536;Name=lod=202	0.97			rs56067329													18	11610349	11610349	G	A	het	het
-intergenic	PIEZO2(dist=461621),GNAL(dist=78632)			536;Name=lod=202	0.97			rs201757125													18	11610382	11610382	C	A	het	het
-intergenic	PIEZO2(dist=461912),GNAL(dist=78341)				0.97																18	11610673	11610673	-	C	het	het
-intergenic	PIEZO2(dist=461914),GNAL(dist=78339)				0.97																18	11610675	11610675	A	C	het	het
-intergenic	PIEZO2(dist=461967),GNAL(dist=78286)				0.97			rs201693577													18	11610728	11610728	G	A	het	het
-intergenic	PIEZO2(dist=461971),GNAL(dist=78282)				0.97			rs200148102													18	11610732	11610732	T	C	het	het
-intergenic	PIEZO2(dist=470724),GNAL(dist=69529)				0.98																18	11619485	11619485	T	C	het	het
-intergenic	PIEZO2(dist=470725),GNAL(dist=69528)				0.98																18	11619486	11619486	G	A	het	het
-intergenic	PIEZO2(dist=470735),GNAL(dist=69518)				0.98																18	11619496	11619496	C	T	het	het
-intergenic	PIEZO2(dist=470738),GNAL(dist=69515)				0.98																18	11619499	11619499	G	C	het	het
-intergenic	PIEZO2(dist=470743),GNAL(dist=69510)				0.98																18	11619504	11619504	G	A	het	het
-intergenic	PIEZO2(dist=470749),GNAL(dist=69504)				0.98																18	11619510	11619510	A	C	het	het
-intergenic	PIEZO2(dist=470762),GNAL(dist=69491)				0.98																18	11619523	11619523	C	A	het	het
-intergenic	PIEZO2(dist=495672),GNAL(dist=44581)				0.97			rs56215832													18	11644433	11644433	G	C	het	het
-intergenic	PIEZO2(dist=495775),GNAL(dist=44478)				0.97			rs56053967													18	11644536	11644536	A	T	het	het
-intronic	GREB1L							rs35095893													18	19096838	19096838	-	T	het	het
-intronic	POTEC				0.98			rs28371374													18	14513939	14513939	C	A	het	het
-intronic	POTEC				0.98			rs28478319													18	14513929	14513929	C	A	het	het
-intronic	RBBP8																				18	20513818	20513818	-	G	het	het
-intronic	SEH1L							rs11286163													18	12955440	12955440	T	-	het	het
-intronic	SPIRE1							rs35302137													18	12634935	12634935	A	-	het	het
-intronic	ZNF519																				18	14123218	14123220	AAA	-	het	het
-ncRNA_exonic	ANKRD20A5P				0.96			rs146083227													18	14183752	14183752	C	T	het	het
-ncRNA_exonic	ANKRD20A5P				0.96			rs200469363													18	14183755	14183755	C	T	het	het
-ncRNA_exonic	ANKRD20A5P			278;Name=lod=18	0.96			rs74415894													18	14183710	14183710	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14183581	14183581	-	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14192165	14192165	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214554	14214554	C	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214628	14214628	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214890	14214890	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214904	14214904	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214912	14214912	T	C	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214942	14214942	A	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14214973	14214973	T	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14217818	14217818	A	-	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14220129	14220130	TT	-	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14220217	14220217	-	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14220232	14220232	A	C	het	het
-ncRNA_intronic	ANKRD20A5P				0.96																18	14220261	14220261	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs114542015													18	14183517	14183517	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs147347304													18	14220187	14220187	A	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs148349373													18	14220186	14220186	A	C	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs200254176													18	14183823	14183823	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs202100808													18	14220332	14220332	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs56210426													18	14220226	14220226	G	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs57890630													18	14220176	14220176	T	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs62085004													18	14183646	14183646	C	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs71322316													18	14183814	14183814	T	C	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs71322324													18	14183462	14183462	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs73426321													18	14214773	14214773	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs75698625													18	14183638	14183638	G	C	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs76450749													18	14220388	14220388	A	T	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs77502797													18	14183509	14183509	A	G	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs78339197													18	14220284	14220284	G	A	het	het
-ncRNA_intronic	ANKRD20A5P				0.96			rs79591652													18	14220366	14220366	T	C	het	het
 UTR3	LDLRAD4																				18	13647132	13647132	C	T	het	het
-intergenic	ANKRD62(dist=1982),C18orf61(dist=69048)				0.96			rs12969970													18	12131730	12131730	G	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10279)																				18	18519424	18519424	-	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10485)																				18	18519215	18519218	AAGA	-	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10546)																				18	18519157	18519157	G	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10548)																				18	18519155	18519155	T	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10560)																				18	18519143	18519143	T	-	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10567)																				18	18519136	18519136	T	-	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10580)																				18	18519123	18519123	A	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10657)							rs201933191													18	18519046	18519046	T	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10800)							rs78348610													18	18518903	18518903	G	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11797)							rs76479390													18	18517906	18517906	C	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12036)							rs199877163													18	18517667	18517667	G	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12078)							rs112412248													18	18517625	18517625	C	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12164)																				18	18517539	18517539	G	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12316)																				18	18517387	18517387	A	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12334)																				18	18517369	18517369	A	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12351)							rs201737689													18	18517352	18517352	T	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12376)							rs36132943													18	18517327	18517327	C	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12377)							rs74214145													18	18517326	18517326	T	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12392)							rs199933175													18	18517311	18517311	G	A	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12549)							rs62088490													18	18517154	18517154	A	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12573)							rs77415712													18	18517130	18517130	G	C	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=16616)							rs62091059													18	18513087	18513087	A	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=16654)							rs4515975													18	18513049	18513049	C	G	het	hom
-intergenic	PIEZO2(dist=460652),GNAL(dist=79601)				0.96																18	11609413	11609413	-	AA	het	hom
-intergenic	PIEZO2(dist=495918),GNAL(dist=44335)				0.97			rs201068535													18	11644679	11644679	G	T	het	hom
+intergenic	PIEZO2(dist=461729),GNAL(dist=78524)			536;Name=lod=202	0.97			rs477304													18	11610490	11610490	T	A	het	hom
 intronic	CEP192																				18	13089383	13089383	G	A	het	hom
-intronic	RBBP8																				18	20513818	20513818	-	G	het	hom
-intronic	RNMT																				18	13731407	13731407	-	A	het	hom
-intronic	SPIRE1							rs35057526													18	12546609	12546609	A	-	het	hom
-ncRNA_intronic	ANKRD20A5P				0.96																18	14215594	14215594	-	T	het	hom
-ncRNA_intronic	ANKRD20A5P				0.96			rs117415812													18	14183436	14183436	T	C	het	hom
-UTR3	SPIRE1																				18	12447303	12447303	C	-	het	hom
 UTR3	SPIRE1							rs58328517													18	12447282	12447282	-	G	het	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10504)																				18	18519199	18519199	G	C	hom	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10519)							rs36135415													18	18519184	18519184	T	C	hom	het
-intergenic	NONE(dist=NONE),ROCK1(dist=10908)							rs79366341													18	18518795	18518795	G	A	hom	het
-intergenic	NONE(dist=NONE),ROCK1(dist=11945)							rs62088504													18	18517758	18517758	T	C	hom	het
-intergenic	PIEZO2(dist=470714),GNAL(dist=69539)				0.98																18	11619475	11619475	G	A	hom	het
-intergenic	PIEZO2(dist=470715),GNAL(dist=69538)				0.98																18	11619476	11619476	G	T	hom	het
-intergenic	PIEZO2(dist=470718),GNAL(dist=69535)				0.98																18	11619479	11619479	T	G	hom	het
-intergenic	ZNF519(dist=42566),ANKRD20A5P(dist=4041)				0.96			rs11663639													18	14175055	14175055	G	T	hom	het
-intronic	ESCO1																				18	19110466	19110466	T	-	hom	het
-intronic	GREB1L							rs35816889													18	19088676	19088676	-	A	hom	het
-intronic	IMPA2																				18	12029107	12029107	-	T	hom	het
-intronic	IMPA2																				18	12029107	12029107	-	T	hom	het
-intronic	POTEC				0.98																18	14513529	14513529	-	AT	hom	het
-UTR5	LDLRAD4																				18	13612546	13612546	C	-	hom	het
-exonic	POTEC	nonsynonymous SNV	POTEC:NM_001137671:exon5:c.C1010G:p.S337C		0.98			rs199815986													18	14533105	14533105	G	C	hom	hom
-intergenic	ANKRD30B(dist=204382),LOC644669(dist=256436)				0.98			rs201470553													18	15057119	15057119	C	T	hom	hom
-intergenic	IMPA2(dist=32022),ANKRD62(dist=30941)							rs28417343													18	12062907	12062907	T	C	hom	hom
-intergenic	IMPA2(dist=32023),ANKRD62(dist=30940)																				18	12062908	12062908	-	GGTGTCCCAGGAGCCCAGATTCCTCACCA	hom	hom
-intergenic	IMPA2(dist=9399),ANKRD62(dist=53564)																				18	12040284	12040284	-	TT	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10170)																				18	18519533	18519533	G	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10182)																				18	18519521	18519521	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10192)																				18	18519511	18519511	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10195)							rs74629684													18	18519508	18519508	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10231)							rs63749327													18	18519472	18519472	C	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10248)							rs200246098													18	18519455	18519455	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10329)							rs148319704													18	18519374	18519374	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10502)							rs63749323													18	18519201	18519201	G	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10516)							rs62089178													18	18519187	18519187	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10525)							rs63749322													18	18519178	18519178	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10560)							rs36161903													18	18519143	18519143	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10577)							rs63749318													18	18519126	18519126	C	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10744)							rs78253886													18	18518959	18518959	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10865)							rs63749311													18	18518838	18518838	G	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=10969)							rs4478873													18	18518734	18518734	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11004)							rs62089173													18	18518699	18518699	A	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11033)							rs36190234													18	18518670	18518670	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11862)							rs76469335													18	18517841	18517841	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11867)																				18	18517836	18517836	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=11943)							rs62088505													18	18517760	18517760	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12038)							rs62088503													18	18517665	18517665	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12085)							rs62088500													18	18517618	18517618	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12088)							rs113846553													18	18517615	18517615	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12144)							rs200237467													18	18517559	18517559	G	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12154)							rs201095268													18	18517549	18517549	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12182)							rs199969921													18	18517521	18517521	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12240)							rs199894148													18	18517463	18517463	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12305)							rs149818674													18	18517398	18517398	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12356)							rs62088495													18	18517347	18517347	G	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12405)							rs62088493													18	18517298	18517298	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12411)							rs112998799													18	18517292	18517292	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12420)																				18	18517283	18517283	C	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12436)							rs200154284													18	18517267	18517267	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12591)							rs62088489													18	18517112	18517112	G	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12674)							rs36164032													18	18517029	18517029	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12686)							rs4370941													18	18517017	18517017	A	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12690)							rs71271711													18	18517013	18517013	A	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12694)																				18	18517009	18517009	T	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12698)																				18	18517005	18517005	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12702)							rs4390348													18	18517001	18517001	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12710)																				18	18516993	18516993	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12712)																				18	18516991	18516991	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12737)							rs4553375													18	18516966	18516966	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12773)							rs4616041													18	18516930	18516930	G	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12787)							rs79084052													18	18516916	18516916	A	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12799)							rs62088483													18	18516904	18516904	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=12823)							rs62088482													18	18516880	18516880	T	G	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=13514)							rs2864580													18	18516189	18516189	A	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=13515)							rs201827439													18	18516188	18516188	A	C	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=13520)							rs113784644													18	18516183	18516183	T	A	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=16628)							rs4506661													18	18513075	18513075	A	T	hom	hom
-intergenic	NONE(dist=NONE),ROCK1(dist=16674)							rs62091057													18	18513029	18513029	G	A	hom	hom
-intergenic	PIEZO2(dist=469302),GNAL(dist=70951)				0.98																18	11618063	11618063	-	A	hom	hom
-intergenic	PIEZO2(dist=471039),GNAL(dist=69212)				0.98			rs112261054													18	11619800	11619802	TGT	-	hom	hom
-intergenic	PIEZO2(dist=471147),GNAL(dist=69106)				0.98			rs62099569													18	11619908	11619908	A	G	hom	hom
-intergenic	PIEZO2(dist=484885),GNAL(dist=55368)				0.98			rs3875020													18	11633646	11633646	C	T	hom	hom
-intergenic	POTEC(dist=152027),ANKRD30B(dist=52613)				0.98																18	14695626	14695626	-	T	hom	hom
-intergenic	POTEC(dist=85952),ANKRD30B(dist=118688)				0.98			rs200559497													18	14629551	14629551	T	C	hom	hom
-intergenic	POTEC(dist=86868),ANKRD30B(dist=117772)				0.98			rs7234702													18	14630467	14630467	T	G	hom	hom
-intergenic	ZNF519(dist=12530),ANKRD20A5P(dist=34076)			554;Name=lod=238	0.96																18	14145019	14145020	AC	-	hom	hom
-intergenic	ZNF519(dist=12531),ANKRD20A5P(dist=34075)			554;Name=lod=238	0.96			rs138068361													18	14145020	14145021	CC	-	hom	hom
-intronic	CIDEA							rs11330077													18	12264550	12264550	T	-	hom	hom
-intronic	ESCO1																				18	19119977	19119978	AT	-	hom	hom
-intronic	ESCO1							rs147479383													18	19164407	19164407	-	A	hom	hom
-intronic	ESCO1							rs35451929													18	19110467	19110467	G	-	hom	hom
-UTR3	CHMP1B																				18	11852614	11852615	TT	-	hom	hom
-UTR3	GNAL,MPPE1																				18	11883688	11883688	-	T	hom	hom
-UTR3	MC2R							rs34843971													18	13883576	13883577	AC	-	hom	hom
-UTR3	MIB1							rs146036337													18	19445866	19445866	-	AAAAACAAACAAA	hom	hom
+intergenic	PIEZO2(dist=495775),GNAL(dist=44478)				0.97			rs56053967													18	11644536	11644536	A	T	hom	hom
+intronic	ESCO1							rs35031202													18	19119975	19119976	AT	-	hom	hom
+UTR3	CHMP1B							rs145799015													18	11852613	11852614	TT	-	hom	hom
 UTR3	MIB1							rs35282916													18	19449757	19449757	A	-	hom	hom
-intronic	CEP76,PSMG2																				18	12680597	12680597	A	-	unknown	unknown
-intronic	PIEZO2							rs5823116													18	10731666	10731666	-	T	unknown	unknown
-intronic	POTEC				0.98																18	14513535	14513535	-	ACAC	unknown	unknown
-intronic	SPIRE1							rs139581657													18	12512386	12512387	AA	-	unknown	unknown
